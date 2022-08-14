@@ -1,0 +1,214 @@
+/*
+Dark: #30382A
+Golden Teak #A38B5F 163, 139, 95
+Honeydew: #DFF7E5
+Text: #1c1c1c
+Link: #6D5843
+*/
+@font-face {
+	font-family: "forte";
+	src: url("fonts/forte.ttf");
+}
+:root {
+	--animate-delay: 0.4s;
+	--bs-primary: #A38B5F;
+	--bs-secondary: #6D5843;
+	--bs-primary-rgb: 163, 139, 95;
+	--bs-secondary-rgb: 109, 88, 67;
+	--bs-link-color: #6D5843;
+	--bs-link-hover-color: #564433;
+	--bs-body-font-size: 1.3rem;
+	--bs-light-rgb: 244,245,246;
+}
+
+a {
+	text-decoration: none;
+}
+body {
+	font-family: 'Raleway', serif;
+}
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 4rem;
+	margin-bottom: 2rem;
+}
+h2 {
+	font-family: 'Playfair Display', serif;
+	font-size: 3.25rem;
+}
+h3 {
+	font-family: 'Playfair Display', serif;
+	font-size: 2.5rem;
+	text-transform: uppercase;
+}
+h4 {
+	text-transform: uppercase;
+}
+h5 {
+	text-transform: uppercase;
+	color: #A38B5F;
+}
+p {
+	color: #5a5a5a;
+}
+.brand {
+	font-family: 'forte', serif;
+}
+.btn {
+	--bs-btn-border-radius: 0;
+	text-transform: uppercase;
+	padding: 1rem 2rem;
+}
+.btn-primary {
+	--bs-btn-color: #fff;
+	--bs-btn-bg: rgba(163, 139, 95, 0.85);
+	--bs-btn-border-color: rgba(163, 139, 95, 0.85);
+	--bs-btn-hover-color: #fff;
+	--bs-btn-hover-bg: #6D5843;
+	--bs-btn-hover-border-color: #6D5843;
+	--bs-btn-focus-shadow-rgb: 49,132,253;
+	--bs-btn-active-color: #fff;
+	--bs-btn-active-bg: #6D5843;
+	--bs-btn-active-border-color: #6D5843;
+	--bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+	--bs-btn-disabled-color: #fff;
+	--bs-btn-disabled-bg: rgba(163, 139, 95, 0.85);
+	--bs-btn-disabled-border-color: rgba(163, 139, 95, 0.85);
+}
+.btn-secondary {
+	--bs-btn-color: #fff;
+	--bs-btn-bg: #6D5843;
+	--bs-btn-border-color: #6D5843;
+	--bs-btn-hover-color: #fff;
+	--bs-btn-hover-bg: #564433;
+	--bs-btn-hover-border-color: #564433;
+	--bs-btn-focus-shadow-rgb: 49,132,253;
+	--bs-btn-active-color: #fff;
+	--bs-btn-active-bg: #564433;
+	--bs-btn-active-border-color: #564433;
+	--bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+	--bs-btn-disabled-color: #fff;
+	--bs-btn-disabled-bg: #6D5843;
+	--bs-btn-disabled-border-color: #6D5843;
+}
+.btn-outline-primary {
+	--bs-btn-color: rgba(163, 139, 95, 0.85);
+	--bs-btn-border-color: rgba(163, 139, 95, 0.85);
+	--bs-btn-hover-color: #fff;
+	--bs-btn-hover-bg: rgba(163, 139, 95, 0.85);
+	--bs-btn-hover-border-color: rgba(163, 139, 95, 0.85);
+	--bs-btn-focus-shadow-rgb: 13,110,253;
+	--bs-btn-active-color: #fff;
+	--bs-btn-active-bg: rgba(163, 139, 95, 0.85);
+	--bs-btn-active-border-color: rgba(163, 139, 95, 0.85);
+	--bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+	--bs-btn-disabled-color: rgba(163, 139, 95, 0.85);
+	--bs-btn-disabled-bg: transparent;
+	--bs-btn-disabled-border-color: rgba(163, 139, 95, 0.85);
+	--bs-gradient: none;
+	font-weight: bold;
+}
+.btn-outline-secondary {
+	--bs-btn-color: #6D5843;
+	--bs-btn-border-color: #6D5843;
+	--bs-btn-hover-color: #fff;
+	--bs-btn-hover-bg: #6D5843;
+	--bs-btn-hover-border-color: #6D5843;
+	--bs-btn-focus-shadow-rgb: 13,110,253;
+	--bs-btn-active-color: #fff;
+	--bs-btn-active-bg: #6D5843;
+	--bs-btn-active-border-color: #6D5843;
+	--bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+	--bs-btn-disabled-color: #6D5843;
+	--bs-btn-disabled-bg: transparent;
+	--bs-btn-disabled-border-color: #6D5843;
+	--bs-gradient: none;
+}
+.card {
+	--bs-card-spacer-y: 3rem;
+    --bs-card-spacer-x: 2rem;
+	--bs-card-border-radius: 0rem;
+	--bs-card-inner-border-radius: 0rem;
+	--bs-card-border-color: none;
+	--bs-card-cap-bg: inherit;
+	--bs-card-cap-padding-y: 1.5rem;
+    --bs-card-cap-padding-x: 2rem;
+}
+.card-img-top {
+	height: 300px;
+	object-fit: cover;
+}
+.card-body {
+	padding: 3rem;
+}
+.card-footer {
+	padding: 0rem 3rem 2rem 3rem;
+}
+.form-control {
+	border-radius: 0;
+}
+.nav-pills {
+    --bs-nav-pills-link-active-color: #A38B5F;
+    --bs-nav-pills-link-active-bg: inherit;
+}
+.nav-pills .nav-link.active {
+	font-weight: bold;
+}
+#top-nav {
+	transition:  all .5s ease;
+}
+#top-nav ul{
+	font-size: 1em;
+}
+#header .carousel-item {
+	background: no-repeat scroll center scroll;
+	background-size: cover;
+}
+#header .carousel-item::before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: #000000;
+	opacity: 0.5;
+}
+#header .carousel-caption {
+    position: absolute;
+    right: 15%;
+    top: 5rem;
+    left: 15%;
+    padding-top: 15.25rem;
+    padding-bottom: 1.25rem;
+    color: #FFFFFF;
+    text-align: left;
+}
+#header h1 {
+	font-size: 5rem;
+}
+#testimonials {
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/graphic.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #FFFFFF;
+	font-family: 'Playfair Display', serif;
+	font-size: 2rem;
+}
+#testimonials p {
+	font-family: 'Playfair Display', serif;
+	color: #FFFFFF;
+}
+#footer h3 {
+	margin-bottom: 20px;
+	color: #FFFFFF;
+}
+#footer p {
+	margin-bottom: 10px;
+	color: #7c7c7c;
+}
+#footer a {
+	color: #7c7c7c;
+}
