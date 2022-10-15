@@ -10,7 +10,7 @@ Link: #6D5843
 	src: url("fonts/forte.ttf");
 }
 :root {
-	--animate-delay: 0.4s;
+	--animate-delay: 0.3s;
 	--bs-primary: #A38B5F;
 	--bs-secondary: #6D5843;
 	--bs-primary-rgb: 163, 139, 95;
@@ -160,6 +160,9 @@ p {
 #top-nav ul{
 	font-size: 1em;
 }
+#top-nav.bg-transparent .nav-link {
+	color:#FFFFFF;
+}
 #header .carousel-item {
 	background: no-repeat scroll center scroll;
 	background-size: cover;
@@ -176,17 +179,25 @@ p {
 	opacity: 0.1;
 }
 #header .carousel-caption {
-    position: absolute;
-    right: 15%;
-    top: 5rem;
-    left: 15%;
-    padding-top: 15.25rem;
-    padding-bottom: 1.25rem;
-    color: #FFFFFF;
-    text-align: left;
+	position: absolute;
+	right: 15%;
+	top: 0;
+	left: 15%;
+	padding-top: 15.25rem;
+	padding-bottom: 1.25rem;
+	color: #111111;
+	text-align: left;
 }
 #header h1 {
-	font-size: 5rem;
+	font-size: 4rem;
+}
+@media only screen and (max-width: 600px) {
+	#header h1 {
+		font-size: 2.2rem;
+	}
+	#header .carousel-caption {
+		padding-top: 8rem;
+	}
 }
 #testimonials {
 	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/graphic.png);
