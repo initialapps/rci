@@ -2,7 +2,8 @@ const topNav = document.getElementById('top-nav');
 const topNavbarSupportedContent = document.getElementById('topNavbarSupportedContent')
 const setNavbar = function() {
 	"use strict";
-	if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0 ) {
+	console.log(document.body.clientWidth)
+	if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0 || document.body.clientWidth < 992) {
 		topNav.classList.remove("bg-transparent");
 		topNav.classList.remove("navbar-dark");
 		topNav.classList.add("bg-white");
