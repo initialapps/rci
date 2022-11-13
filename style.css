@@ -26,6 +26,9 @@ a {
 }
 body {
 	font-family: 'Raleway', serif;
+	-webkit-font-feature-settings: "lnum";
+	-moz-font-feature-settings: "lnum";
+	font-feature-settings: "lnum";
 }
 h1 {
 	font-family: 'Playfair Display', serif;
@@ -58,6 +61,9 @@ p {
 }
 .brand {
 	font-family: 'forte', serif;
+}
+.bg-organic {
+	background-color: #e8e8e5;
 }
 .btn {
 	--bs-btn-border-radius: 0;
@@ -173,6 +179,9 @@ p {
 #top-nav.bg-transparent .nav-link {
 	color:#FFFFFF;
 }
+#nav-mobile-footer .btn {
+	padding: 0.5rem 1rem;
+}
 #header .carousel-item {
 	background: no-repeat scroll center scroll;
 	background-size: cover;
@@ -227,13 +236,13 @@ p {
 		font-size: 1.5rem;
 	}
 }
-#location .map-responsive{
+.location .map-responsive{
 	overflow:hidden;
 	padding-bottom:50%;
 	position:relative;
 	height:450px;
 }
-#location .map-responsive iframe{
+.location .map-responsive iframe{
 	left:0;
 	top:0;
 	height:100%;
@@ -241,7 +250,7 @@ p {
 	position:absolute;
 }
 @media only screen and (max-width: 600px) {
-	#location p {
+	.location p {
 		font-size: 1rem;
 	}
 }
